@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isModal : Bool = false
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        Button(action: {
+            isModal = true
+        }) {
+            Text("Apple")
+        }.sheet(isPresented: $isModal) {
+            WebView(loadUrl: "https://www.apple.com")
+        }
     }
 }
 

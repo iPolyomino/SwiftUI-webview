@@ -11,6 +11,7 @@
 		1B1B0166267485C800CE3658 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B0165267485C800CE3658 /* ContentView.swift */; };
 		1B1B0168267485CA00CE3658 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B0167267485CA00CE3658 /* Assets.xcassets */; };
 		1B1B016B267485CA00CE3658 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B1B016A267485CA00CE3658 /* Preview Assets.xcassets */; };
+		1B1B01732674862A00CE3658 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1B01722674862A00CE3658 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1B1B0167267485CA00CE3658 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B1B016A267485CA00CE3658 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1B1B016C267485CA00CE3658 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B1B01722674862A00CE3658 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				1B1B0163267485C800CE3658 /* webviewApp.swift */,
 				1B1B0165267485C800CE3658 /* ContentView.swift */,
+				1B1B01722674862A00CE3658 /* WebView.swift */,
 				1B1B0167267485CA00CE3658 /* Assets.xcassets */,
 				1B1B016C267485CA00CE3658 /* Info.plist */,
 				1B1B0169267485CA00CE3658 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B1B01732674862A00CE3658 /* WebView.swift in Sources */,
 				1B1B0166267485C800CE3658 /* ContentView.swift in Sources */,
 				1B1B0164267485C800CE3658 /* webviewApp.swift in Sources */,
 			);
