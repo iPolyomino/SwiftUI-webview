@@ -8,14 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var isModal : Bool = false
+    @State var isYahooModal : Bool = false
+    @State var isNikkanModal : Bool = false
     var body: some View {
-        Button(action: {
-            isModal = true
-        }) {
-            Text("Apple")
-        }.sheet(isPresented: $isModal) {
-            WebView(loadUrl: "https://www.apple.com")
+        VStack{
+            Button(action: {
+                isYahooModal = true
+            }) {
+                Text("Yahoo News スポーツ")
+            }.sheet(isPresented: $isYahooModal) {
+                WebView(loadUrl: "https://news.yahoo.co.jp/categories/sports")
+            }.padding()
+            
+            Button(action: {
+                isNikkanModal = true
+            }) {
+                Text("日刊スポーツ")
+            }.sheet(isPresented: $isNikkanModal) {
+                WebView(loadUrl: "https://www.nikkansports.com/")
+            }.padding()
         }
     }
 }
